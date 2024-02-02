@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* CSS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.main-content {
+  margin-bottom: 80px; /* Adjust the margin value to create enough space */
+}
