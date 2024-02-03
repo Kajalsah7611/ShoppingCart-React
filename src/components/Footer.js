@@ -13,7 +13,7 @@ export default function Footer(props) {
       >
         Reset
       </button>
-      <div className="col-8 bg-secondary pt-2 text-light  d-flex justify-content-center ">
+      <div className="col-8 bg-warning pt-2 text-light  d-flex justify-content-center ">
         <h5>Total Amount: </h5>{" "}
         <span className="badge bg-dark ms-3 mb-2">₹{props.totalAmount}</span>
       </div>
