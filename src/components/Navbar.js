@@ -6,8 +6,9 @@ class Navbar extends React.Component {
     const { totalQuantity } = this.props;
     return (
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <a className="navbar-brand fw-bold fs-3">Shopping App</a>
+        <div className="container-fluid d-flex flex-column align-items-start">
+         <div className="mb-0"> <a className="navbar-brand fw-bold fs-3 ">Shopping</a></div>
+         <div className="mb-0 text-end"><a className="navbar-brand fw-bold fs-3 ">App</a></div>
         </div>
 
         <button
