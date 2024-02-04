@@ -13,7 +13,7 @@ class Navbar extends React.Component {
 
         <button
           type="button"
-          className="btn btn-warning position-relative m-3 flex-grow-1"
+          className="btn btn-warning position-relative m-4 flex-grow-1"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
