@@ -57,7 +57,7 @@ function App() {
     let newTotalAmount = totalAmount;
     newTotalAmount -=
       newProductList[index].quantity * newProductList[index].price;
-    newProductList.splice(index, 1);
+    newProductList.splice(index, 1);  // Using splice to remove elements,  Remove 1 element starting from index value of index
     setTotalAmount(newTotalAmount);
     setProductList(newProductList);
   };
