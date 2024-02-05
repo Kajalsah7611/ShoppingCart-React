@@ -2,7 +2,7 @@ import React from "react";
 import Product from "./Product.js";
 
 export default function ProductList(props) {
-  //    console.log(props)   //gives array object of product
+  //  console.log(props)   //gives array object of all the properties passed by app.js
 
     return (
         props.productList.length > 0 ?
